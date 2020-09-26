@@ -7,11 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e725a4fb-1de9-4c8b-a0a1-0518c6f8424b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/app/TaskApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/RoomRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/app/Injection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/viewmodel/TaskDetailsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/viewmodel/TaskViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/TaskRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/TaskRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/RoomRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/RoomRepository.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -106,25 +109,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="804" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601036992013" />
-    <state x="526" y="122" key="AndroidCreateResourceFileDialog" timestamp="1600974026948">
+    <state x="526" y="122" key="AndroidCreateResourceFileDialog" timestamp="1601124858029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="122" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1600974026948" />
+    <state x="526" y="122" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1601124858029" />
     <state x="872" y="198" key="AndroidCreateXmlResourceDialog" timestamp="1601013426492">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="872" y="198" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1601013426492" />
-    <state x="674" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601033810253">
+    <state x="804" y="119" key="FileChooserDialogImpl" timestamp="1601047219522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="674" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601033810253" />
+    <state x="804" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601047219522" />
+    <state x="674" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601047202448">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="674" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601047202448" />
     <state x="693" y="105" width="663" height="518" key="find.popup" timestamp="1601014657612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="693" y="105" width="663" height="518" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601014657612" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601014899714">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601123315570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601014899714" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601123315570" />
   </component>
 </project>
