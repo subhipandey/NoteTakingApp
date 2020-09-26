@@ -17,10 +17,10 @@ private val taskDao: TaskDao = TaskApplication.database.taskDao()
     override fun getTasks(): LiveData<List<Task>?> = allTasks
 
     override suspend fun updateTask(task: Task) {
-        TODO("Not yet implemented")
+        taskDao.update(task)
     }
 
     override suspend fun deleteTask(task: Task) {
-        TODO("Not yet implemented")
+        taskDao.deleteTasks(task)
     }
 }
