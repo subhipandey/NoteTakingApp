@@ -7,13 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e725a4fb-1de9-4c8b-a0a1-0518c6f8424b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/app/Injection.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/viewmodel/TaskDetailsViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/viewmodel/TaskViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/WorkState.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/RoomRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/RoomRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/viewmodel/TaskDetailsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/viewmodel/TaskDetailsViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/viewmodel/TaskViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/viewmodel/TaskViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasks.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,17 +121,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="804" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601047219522" />
-    <state x="674" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601047202448">
+    <state x="674" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601131217386">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="674" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601047202448" />
+    <state x="674" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601131217386" />
     <state x="693" y="105" width="663" height="518" key="find.popup" timestamp="1601014657612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="693" y="105" width="663" height="518" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601014657612" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601123315570">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601132083092">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601123315570" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601132083092" />
   </component>
 </project>
