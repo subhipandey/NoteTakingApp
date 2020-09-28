@@ -9,4 +9,6 @@ data class Task(
     val title:String,
     val description: String,
     @PrimaryKey val id: String = UUID.randomUUID().toString()
-)
+) {
+    fun isContentEqual(other: Task) = title == other.title && description == other.description
+}
