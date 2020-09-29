@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_tasks">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            android:id="@+id/viewDetails"
             app:destination="@id/detailsFragment" />
     </fragment>
     <fragment
@@ -20,9 +20,9 @@
         android:name="com.subhipandey.android.notetakingapp.TaskDetailsFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_task_details">
-
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/detailsFragment" />
+        <argument
+            android:name="task"
+            app:argType="com.subhipandey.android.notetakingapp.data.Task"
+            app:nullable="true" />
     </fragment>
 </navigation>
