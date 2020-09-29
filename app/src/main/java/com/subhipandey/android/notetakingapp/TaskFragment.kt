@@ -9,19 +9,21 @@ import android.widget.Button
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.ItemTouchHelper
+import com.subhipandey.android.notetakingapp.app.navigate
 import com.subhipandey.android.notetakingapp.data.Task
 import com.subhipandey.android.notetakingapp.databinding.FragmentTasksBinding
 import com.subhipandey.android.notetakingapp.viewmodel.TaskViewModel
 
-/**
- * A simple [Fragment] subclass as the default destination in the navigation.
- */
+
 class TaskFragment : Fragment(), TasksAdapter.TasksListener {
     private val viewModel by lazy {
         ViewModelProvider(this).get(TaskViewModel::class.java)
     }
 
-    private val adapter = TasksAdapter(listener = this)
+    private val adapter by lazy {
+        TasksAdapter(listener = this)
+    }
     private lateinit var binding: FragmentTasksBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -34,16 +36,20 @@ class TaskFragment : Fragment(), TasksAdapter.TasksListener {
         super.onViewCreated(view, savedInstanceState)
         binding.lifecycleOwner = this
         binding.viewModel = viewModel
+        setupList()
 
         viewModel.tasks.observe(viewLifecycleOwner, Observer {
-
+            adapter.updateTasks(it)
         })
+        binding.add.setOnClickListener {
+            viewDetail()
+        }
 
 
     }
 
     override fun deleteTaskAtPosition(task: Task, position: Int) {
-
+        viewModel.deleteTask(task)
     }
 
     override fun onItemClick(task: Task) {
@@ -51,6 +57,12 @@ class TaskFragment : Fragment(), TasksAdapter.TasksListener {
     }
 
     private fun viewDetail(task: Task? = null) {
-        //  navigate(TasksFragmentDirections.viewDetail(task))
+        navigate(TaskFragmentDirections.viewDetails(task))
+    }
+
+    private fun setupList() {
+        binding.listRV.adapter = adapter
+        val itemTouchHelper = ItemTouchHelper(ItemTouchHelperCallback(adapter))
+        itemTouchHelper.attachToRecyclerView(binding.listRV)
     }
 }
