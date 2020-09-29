@@ -10,7 +10,7 @@ import com.subhipandey.android.notetakingapp.data.TaskDiffCallback
 import com.subhipandey.android.notetakingapp.databinding.TaskItemBinding
 
 class TasksAdapter(
-    private val tasks: MutableList<Task>,
+    private val tasks: MutableList<Task> = mutableListOf(),
     private val listener: TasksListener
 ) : RecyclerView.Adapter<TasksAdapter.Companion.ViewHolder>(), ItemTouchHelpListener {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
