@@ -7,13 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e725a4fb-1de9-4c8b-a0a1-0518c6f8424b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/ItemTouchHelperCallback.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/TaskDiffCallback.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/TaskFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/TaskFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/TasksAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/TasksAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/subhipandey/android/notetakingapp/data/Task.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,10 +104,10 @@
     <configuration />
   </component>
   <component name="WindowStateProjectService">
-    <state x="804" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1601292829148">
+    <state x="804" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1601356208163">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="804" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601292829148" />
+    <state x="804" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601356208163" />
     <state x="526" y="122" key="AndroidCreateResourceFileDialog" timestamp="1601124858029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -126,17 +124,17 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="214" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1601311318448" />
-    <state x="674" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601308042110">
+    <state x="674" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601378901169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="674" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601308042110" />
+    <state x="674" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601378901169" />
     <state x="693" y="105" width="663" height="518" key="find.popup" timestamp="1601014657612">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="693" y="105" width="663" height="518" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601014657612" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601291818776">
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601378956049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601291818776" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601378956049" />
   </component>
 </project>
